@@ -2,6 +2,7 @@ const fs = require('fs');
 
 function fileSize (fileName, cb) {
   if (typeof fileName !== 'string') {
+    // Converted cb to async using process.nextTick
     return process.nextTick(
       cb,
       new TypeError('argument should be string')
