@@ -6,11 +6,11 @@ server.on('request', (req, res) => {
 
   setTimeout(function () {
     res.write('Another Hello world\n');
-  }, 10000);
+  }, 1000);
 
   setTimeout(function () {
     res.write('Yet Another Hello world\n');
-  }, 20000);
+  }, 2000);
 });
 
 server.listen(8000);
