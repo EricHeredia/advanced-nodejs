@@ -62,3 +62,5 @@ class CustomEmitter extends EventEmitter {
 // *****
 
 const stream = new CustomEmitter();
+
+// Complete
