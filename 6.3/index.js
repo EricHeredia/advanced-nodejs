@@ -64,3 +64,16 @@ class CustomEmitter extends EventEmitter {
 const stream = new CustomEmitter();
 
 // Complete
+
+{
+  name:     'Eric Heredia',
+  title:    'Software Developer',
+  location: 'Naperville, IL'
+  contact: {
+    phone: '630-788-8422',
+    email: 'EricDavidHeredia@gmail.com'
+  },
+  website:  'EricHeredia.github.io',
+  linkedIn: 'linkedin.com/in/EricHeredia',
+  github:   'github.com/EricHeredia'
+}
